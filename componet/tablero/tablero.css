@@ -1,4 +1,29 @@
-.tablero {
-   
-    background-color: brown;
+.div-tablero { 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablero-div {
+    height: 50rem;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    padding: 9rem 10rem;
+    box-shadow: 5px 3px 5px 3px rgb(122, 116, 116);
+}
+.div-item {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
 }
