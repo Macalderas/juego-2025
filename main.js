@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 import { bloquePrincipal } from "./componet/header/header.js";
-=======
 import { cargar_cartas } from "./componet/tablero/tablero.js";
->>>>>>> 3369981f63f69458c84874a118ab1be7b9f52972
 let DOM = document.querySelector("#root");
 
 let contenedor = document.createElement('div');
