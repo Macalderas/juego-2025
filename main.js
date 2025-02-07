@@ -1,3 +1,4 @@
+import { bloquePrincipal } from "./componet/header/header.js";
 let DOM = document.querySelector("#root");
 
 let contenedor = document.createElement('div');
@@ -5,6 +6,7 @@ contenedor.className = "contenedor";
 
 let div_header = document.createElement('div');
 div_header.className = "header";
+div_header.appendChild(bloquePrincipal);
 contenedor.appendChild(div_header);
 
 let div_footer = document.createElement('div');

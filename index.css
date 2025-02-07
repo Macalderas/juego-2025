@@ -11,7 +11,7 @@ height: 100vh;
 
     display: grid;
     grid-template-columns: 30% auto;
-    grid-template-rows: 6rem auto 10rem ;
+    grid-template-rows: 14rem auto 14rem ;
 }
 
 .header{

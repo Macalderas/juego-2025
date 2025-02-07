@@ -1,3 +1,51 @@
-.header {
-    background-color: #3498db;
+.bloques_principal_naruto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bloque_icono_naruto img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: contain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulo_naruto {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff4500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bloques_botones_naruto {
+    display: flex;
+    gap: 10px;
+}
+
+.nivel-boton-naruto {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.nivel-boton-naruto:hover {
+    background-color: #ff6347;
+    color: white;
 }
