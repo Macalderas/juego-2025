@@ -14,7 +14,7 @@
     padding: 9rem 10rem;
     box-shadow: 5px 3px 5px 3px rgb(122, 116, 116);
 }
-.div-item {
+.carta-item {
     height: 100px;
     width: 100px;
     border: 1px solid black;
@@ -26,4 +26,8 @@
     text-align: center;
 
     
+}
+
+.marcado {
+    background-color: rgb(94, 189, 50);
 }
