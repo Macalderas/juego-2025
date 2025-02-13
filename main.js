@@ -13,7 +13,12 @@ contenedor.appendChild(div_header);
 let div_tablero = document.createElement('div');
 div_tablero.className = "tablero";
 contenedor.appendChild(div_tablero);
+
+   
+        
+
 div_tablero.appendChild(cargar_cartas());
+
 
 
 let div_progreso = document.createElement('div');
@@ -32,6 +37,7 @@ todasCartas.forEach(cadaCarta => {
     
     cadaCarta.addEventListener("click", ()=>{
  cadaCarta.classList.add("marcado");
+
 
     })
 })
