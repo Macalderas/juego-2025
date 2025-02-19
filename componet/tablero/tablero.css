@@ -46,7 +46,8 @@
     transition: transform 0.6s;
 }
 
-.card-container:hover .card {
+/* Voltear la carta al hacer clic */
+.card.flipped {
     transform: rotateY(180deg);
 }
 
